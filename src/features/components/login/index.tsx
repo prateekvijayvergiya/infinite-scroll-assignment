@@ -6,8 +6,6 @@ import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import Alert from '@material-ui/lab/Alert'
 
-import useLocalStorage from './../../../app/utils/localStorageUtils'
-
 const fakeUserCredentials = {
   username: 'foo',
   password: 'bar',
@@ -18,7 +16,6 @@ const Login: React.FC = () => {
   const [password, setPassword] = useState<string>('')
   const [errorInCredentials, setErrorInCredentials] = useState<boolean>(false)
   const history = useHistory()
-  const { setItemInLocalStorage } = useLocalStorage('isUserLoggedIn')
 
   const handleUsernameInputChange = (
     event: React.ChangeEvent<HTMLInputElement>

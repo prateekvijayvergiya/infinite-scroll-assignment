@@ -1,6 +1,5 @@
 import React from 'react'
 import { Route, Redirect } from 'react-router-dom'
-import useLocalStorage from './../../app/utils/localStorageUtils'
 
 type HomeProtectedRoutesProps = {
   component: React.ComponentType
@@ -12,7 +11,6 @@ const HomeProtectedRoute: React.FC<HomeProtectedRoutesProps> = ({
   component: Component,
   path,
 }) => {
-  // const {isUserLoggedIn} = useLocalStorage('isUserLoggedIn')
   const isUserLoggedIn = window.localStorage.getItem('isUserLoggedIn')
   return (
     <Route
