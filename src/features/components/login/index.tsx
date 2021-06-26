@@ -19,11 +19,11 @@ const Login: React.FC = () => {
 
   const handleUsernameInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
-  ) => setUsername(event.target.value)
+  ) => setUsername(event.target.value.toLowerCase())
 
   const handlePasswordInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
-  ) => setPassword(event.target.value)
+  ) => setPassword(event.target.value.toLowerCase())
 
   const handleLoginButtonClick = useCallback(() => {
     if (
