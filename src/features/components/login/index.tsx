@@ -30,7 +30,6 @@ const Login: React.FC = () => {
       username === fakeUserCredentials.username &&
       password === fakeUserCredentials.password
     ) {
-      // setItemInLocalStorage(true)
       window.localStorage.setItem('isUserLoggedIn', 'true')
       history.push('/home')
     } else setErrorInCredentials(true)
