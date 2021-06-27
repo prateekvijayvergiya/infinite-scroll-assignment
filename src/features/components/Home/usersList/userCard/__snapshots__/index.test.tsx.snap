@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard renders correctly 1`] = `
+<Card
+  className="makeStyles-root"
+>
+  <CardActionArea>
+    <CardMedia
+      alt="user image"
+      component="img"
+      height="200"
+      image="test"
+    />
+    <CardContent>
+      <Typography
+        className="makeStyles-text"
+        gutterBottom={true}
+        variant="h5"
+      >
+        Alan
+         
+        Walker
+      </Typography>
+    </CardContent>
+  </CardActionArea>
+</Card>
+`;

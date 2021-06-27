@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login renders correctly 1`] = `
+<Grid
+  alignItems="center"
+  container={true}
+  direction="column"
+  justify="center"
+  spacing={4}
+>
+  <Grid
+    item={true}
+  >
+    <TextField
+      onChange={[Function]}
+      placeholder="Enter username"
+      value=""
+    />
+  </Grid>
+  <Grid
+    item={true}
+  >
+    <TextField
+      onChange={[Function]}
+      placeholder="Enter password"
+      type="password"
+      value=""
+    />
+  </Grid>
+  <Grid
+    item={true}
+  >
+    <Button
+      color="primary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Login
+    </Button>
+  </Grid>
+</Grid>
+`;

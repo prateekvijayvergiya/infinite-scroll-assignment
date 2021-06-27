@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<Grid
+  alignItems="center"
+  container={true}
+  direction="column"
+  justify="center"
+>
+  <Grid
+    item={true}
+  >
+    <Typography
+      align="center"
+      gutterBottom={true}
+      variant="h4"
+    >
+      Find your perfect match
+    </Typography>
+  </Grid>
+  <Grid
+    item={true}
+  >
+    <Button
+      color="primary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Logout
+    </Button>
+  </Grid>
+  <Grid
+    item={true}
+  >
+    <Spacer />
+  </Grid>
+  <Grid
+    item={true}
+  >
+    <UsersList />
+  </Grid>
+</Grid>
+`;

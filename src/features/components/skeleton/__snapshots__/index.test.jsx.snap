@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingSkeleton renders correctly 1`] = `
+<Card
+  className="makeStyles-root"
+>
+  <CardActionArea>
+    <CardContent>
+      <Skeleton
+        height={200}
+        variant="rect"
+        width={170}
+      />
+      <Skeleton
+        height={50}
+        variant="text"
+        width={170}
+      />
+    </CardContent>
+  </CardActionArea>
+</Card>
+`;
