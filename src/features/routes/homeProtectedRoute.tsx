@@ -17,7 +17,7 @@ const HomeProtectedRoute: React.FC<HomeProtectedRoutesProps> = ({
       exact
       path={path}
       render={() =>
-        isUserLoggedIn ? <Component /> : <Redirect to={'/login'} />
+        isUserLoggedIn === 'true' ? <Component /> : <Redirect to={'/login'} />
       }
     />
   )

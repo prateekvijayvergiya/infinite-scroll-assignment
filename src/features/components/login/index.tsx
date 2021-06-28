@@ -27,8 +27,8 @@ const Login: React.FC = () => {
 
   const handleLoginButtonClick = useCallback(() => {
     if (
-      username === fakeUserCredentials.username &&
-      password === fakeUserCredentials.password
+      username.trim() === fakeUserCredentials.username &&
+      password.trim() === fakeUserCredentials.password
     ) {
       window.localStorage.setItem('isUserLoggedIn', 'true')
       history.push('/home')
